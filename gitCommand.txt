@@ -1,0 +1,30 @@
+git config --global user.name "ruhullahshaikh"
+
+git config --global user.email "ruhullahshaikh7@gmail.com"
+
+git config --list
+
+//for linux
+/*  git config --global core.editor emacs
+git config --global core.editor vim
+touch /*
+
+git config user.name
+git config user.email
+
+
+//main git
+git status
+git init
+git status
+
+//for adding file in staging area
+git add --a
+
+//commit
+
+git commit -m "First project commit"
+
+
+//checking commit
+git log
