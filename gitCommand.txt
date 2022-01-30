@@ -18,13 +18,16 @@ git status
 git init
 git status
 
-//for adding file in staging area
+//for adding all file in staging area
 git add --a
 
 //commit
-
 git commit -m "First project commit"
 
 
 //checking commit
 git log
+
+
+//for adding one file in staging area(gitCommand.txt is a file name)
+git add  gitCommand.txt
