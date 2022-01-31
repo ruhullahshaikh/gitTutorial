@@ -34,3 +34,19 @@ git add  gitCommand.txt
 
 //deleting all git file command
 rm -rf .git
+
+
+//for ignoring file in git
+
+// create error.log file in folder
+// create .giignore file by use following command
+
+touch .gitignore
+
+//and in .gitignore file include error.log file
+//and run git status and add add all changes and then commit it
+
+
+
+
+
