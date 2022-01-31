@@ -12,6 +12,7 @@ touch /*
 git config user.name
 git config user.email
 
++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //main git
 git status
@@ -27,7 +28,7 @@ git commit -m "First project commit"
 
 //checking commit
 git log
-
++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //for adding one file in staging area(gitCommand.txt is a file name)
 git add  gitCommand.txt
@@ -78,7 +79,11 @@ git diff
 
 git diff --staged
 
++++++++++++++++++++++++++++++++++++++++++++++++++
+//direct commit in git
+/untracked file directly not goes into direct commit
+git commit -a -m "Direct Commit"
 
 
 
-
++++++++++++++++++++++++++++++++++++++++++++++++++
