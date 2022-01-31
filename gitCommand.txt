@@ -69,6 +69,14 @@ dir is file name
 //or 
 static/dir/
 
+//differnce between Commits/Staging Area & Working Directory 
+
+// git diff show compare between staging area and working directory
+git diff
+
+//for compare previous commit and staged file 
+
+git diff --staged
 
 
 
