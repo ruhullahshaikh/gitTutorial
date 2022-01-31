@@ -31,3 +31,6 @@ git log
 
 //for adding one file in staging area(gitCommand.txt is a file name)
 git add  gitCommand.txt
+
+//deleting all git file command
+rm -rf .git
