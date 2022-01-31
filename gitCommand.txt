@@ -94,9 +94,11 @@ for exit (q)
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
-//Moving and Renaming Files In Git
+//moving and renaming Files In Git
+
 //normal method
 git status
+//rename file manually
 git add .
 git status
 git commit -m "renamed file"
@@ -106,3 +108,77 @@ git commit -m "renamed file"
 
 third.txt is a file name
 git rm third.txt
+
+
+//rename file using git
+git mv first.txt first1.txt
+
+
+
+//for not tracking file .gitignore some  file will be track beacause it is before in git tracking so use following command and not deleted file
+// first.accdb is a file name
+git rm --cached first.accdb
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name
+git clone https://github.com/tensorflow/tensorflow.git
+
+//for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name and giving own file name 'soul' is a file name
+git clone https://github.com/tensorflow/tensorflow.git soul
+
+
+//for readme file (markdown file)
+https://readme.so/
+
+
+
