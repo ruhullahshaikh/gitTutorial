@@ -47,6 +47,30 @@ touch .gitignore
 //and run git status and add add all changes and then commit it
 
 
+// command for ignoring all .log file 
+
+
+*.log
+
+
+//for ignoring dorectory in git file
+
+add file name in .gitignore file(dir/ is a file name)
+
+dir/
+
+
+//git by default ignore blank folder
+
+
+// for ignoring only ouuter file
+dir is file name
+	/dir/
+//or 
+static/dir/
+
+
+
 
 
 
