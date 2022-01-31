@@ -87,3 +87,22 @@ git commit -a -m "Direct Commit"
 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//type after git log
+for exit (q)
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Moving and Renaming Files In Git
+//normal method
+git status
+git add .
+git status
+git commit -m "renamed file"
+
+
+//deleting file in git 
+
+third.txt is a file name
+git rm third.txt
