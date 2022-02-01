@@ -173,7 +173,34 @@ git checkout -- <file>
 //for restoring previous all file information
 git checkout -f
 
++++++++++++++++++++++++++++++++++++++++++++++++++
 
+//Working with Remote Repositories
+
+git remote
+git remote add origin git@github.com:ruhullahshaikh/gitTutprial.git
+git remote -v (show fetch and push)
+
+//select branch
+git branch -M main
+git push -u origin main //throw error
+
+
+//got to account main settings and add new ssh keys
+
+
+
+//add this in git bash
+
+ssh-keygen -t ed25519 -C "ruhullahshaikh7@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+tail ~/.ssh/id_ed25519.pub
+
+//then run 
+
+git push -u origin main
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -189,4 +216,9 @@ https://git-scm.com/docs/git-log
 
 //for readme file (markdown file)
 https://readme.so/
+
+
+//generating ssh keys on gothub
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
