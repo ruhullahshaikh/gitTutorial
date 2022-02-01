@@ -1,7 +1,5 @@
 git config --global user.name "ruhullahshaikh"
-
 git config --global user.email "ruhullahshaikh7@gmail.com"
-
 git config --list
 
 //for linux
@@ -122,40 +120,47 @@ git rm --cached first.accdb
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
+//Git Log: Viewing & Changing Commits In Git 
+command for remobing git repository
+
+rm -rf .git
+
+//show what changes in file
+
+git log -p
+git log -p -3
+
+//show stats of commit in git
+git log --stat
+
+//show status of commit in one line
+git log --pretty=oneline
+
+//show status of commit in short
+git log --pretty=short
+
+//show status of commit in full
+git log --pretty=full
 
 
+//showing git commit by days month and year
 
+git log --since=2.days
+git log --since=2.weeks
+git log --since=2.months
+git log --since=2.years
 
+//formatting git commit
 
+git log --pretty=format:"%h--%an"
+git log --pretty=format:"%h--%ae"
 
+//amending/changing anyone commit in git
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+git commit --amend
+//i button is uded for edit vim editor in git
+esc+:+w+q
++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
@@ -176,6 +181,9 @@ git clone https://github.com/tensorflow/tensorflow.git
 //for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name and giving own file name 'soul' is a file name
 git clone https://github.com/tensorflow/tensorflow.git soul
 
+//git documentation
+
+https://git-scm.com/docs/git-log
 
 //for readme file (markdown file)
 https://readme.so/
