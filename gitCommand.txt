@@ -204,6 +204,12 @@ git push -u origin main
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
+//Setting Alias In Git
+// changing status as st
+git config --global alias.st status
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
 //for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name
 git clone https://github.com/tensorflow/tensorflow.git
 
