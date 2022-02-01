@@ -199,7 +199,7 @@ ssh-add ~/.ssh/id_ed25519
 tail ~/.ssh/id_ed25519.pub
 
 //then run 
-
+git branch -M main
 git push -u origin main
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
