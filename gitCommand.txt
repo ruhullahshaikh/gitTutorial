@@ -159,21 +159,23 @@ git log --pretty=format:"%h--%ae"
 
 git commit --amend
 //i button is uded for edit vim editor in git
-esc+:+w+q
+esc+:+w+q for amneding commit
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
+//for staging to unstage file
+
+git restore --staged <file>
+
+
+//for restoring previous one file information
+git checkout -- <file>
+
+//for restoring previous all file information
+git checkout -f
 
 
 
-
-
-
-
-
-
-
-
-
++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name
 git clone https://github.com/tensorflow/tensorflow.git
@@ -187,6 +189,4 @@ https://git-scm.com/docs/git-log
 
 //for readme file (markdown file)
 https://readme.so/
-
-
 
