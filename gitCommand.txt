@@ -232,6 +232,24 @@ git branch -v
 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
+//Pushing Git Branches To Remote Repositories
+git remote
+git remote add origin <link of github> 
+git remote -v
+git push -u origin master
+
+//pushing another branch
+git push origin <branch-name>
+
+
+//changing branch name in github
+git push origin <branch-name>:<branch-name1>
+
+//deleting branch
+git push -d origin <branch-name>
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name
 git clone https://github.com/tensorflow/tensorflow.git
