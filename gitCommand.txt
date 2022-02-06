@@ -219,6 +219,18 @@ git checkout -b develop
 //back to previous branch
 git checkout main
 
+//deleting merge branch in git
+git branch -d tryCleanup1
+
+//deleting unmerge branch in git
+git branch -D tryCleanup1
+
+git branch --no-merged
+git branch merged
+
+git branch -v
+
+
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
 //for cloning outer file in git "(https://github.com/tensorflow/tensorflow.git)"is file name
